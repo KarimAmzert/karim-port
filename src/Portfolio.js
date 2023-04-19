@@ -5,9 +5,10 @@ import './Portfolio.css';
 import githubLogo from './github-logo.png';
 import linkedinLogo from './linkedin-logo.png';
 import twitterLogo from './twitter-icone-5.png';
-import dawn from './1500x500.jpg'
-import GBlogo from './Smash_Ball.png'
-import image4 from './IMG_5232.jpg'
+import dawn from './1500x500.jpg';
+import GBlogo from './Smash_Ball.png';
+import WMlogo from './apple-touch-icon@2.png';
+import image4 from './IMG_5232.jpg';
 
 let isScrollingDown = false;
 
@@ -85,9 +86,7 @@ const Portfolio = () => {
         <section id="about">
           <h2>About Me</h2>
           <p>
-            I am a front-end developer with experience in HTML, CSS, and
-            JavaScript. I am passionate about creating user-friendly and
-            visually appealing web applications.
+            About me section blblblblblsdjbweaofbawoefjn
           </p>
         </section>
         <section id="projects">
@@ -96,13 +95,16 @@ const Portfolio = () => {
             {/* Render your projects as cards or tiles */}
             <div className="project-card">
               <img src="project1.png" alt="Project 1" />
+              <div className="card-background">
+                <img src= {WMlogo} alt="Project 1 Background" />
+              </div>
               <h3>WebManga</h3>
               <p>
-                A web application built with React.js and Firebase that allows users to
+                A web application built with React.js, Firebase and SwaggerUI that allows users to
                 read,publish and review mangas.
               </p>
               <div className="social-icons">
-                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Tagatso/WebManga" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
                 </a>
               </div>
@@ -111,8 +113,7 @@ const Portfolio = () => {
               <img src="project2.png" alt="Project 2" />
               <h3>Project 2</h3>
               <p>
-                A full-stack e-commerce application built with React.js, Node.js,
-                and MongoDB.
+                2nd project blablablablablablalbadfiuarbgeasddddddddddddddddddd
               </p>
               <div className="social-icons">
                 <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
@@ -124,8 +125,7 @@ const Portfolio = () => {
               <img src="project3.png" alt="Project 3" />
               <h3>Project 3</h3>
               <p>
-                A web application built with React.js that allows users to
-                customize their profiles.
+                3rd project asofuigbaeriougnaweogianrboiaewejgoaiwrn
               </p>
               <div className="social-icons">
                 <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
@@ -137,8 +137,7 @@ const Portfolio = () => {
               <img src="project4.png" alt="Project 4" />
               <h3>Project 4</h3>
               <p>
-                A web application built with React.js that allows users to
-                customize their profiles.
+                4th project oinergopjanhoqwrinhffalrkjbgvljbhlibjarlwkjbhavlhjlabwhv
               </p>
               <div className="social-icons">
                 <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
@@ -197,11 +196,9 @@ const Portfolio = () => {
           <h2>Contact</h2>
           <p>
             If you would like to get in touch with me, please feel free
-            to send me a message using the form below.
+            to send me a message using the contact information below.
           </p>
-          <form>
-            {/* Form fields go here */}
-          </form>
+
           <div className="social-icons">
             <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
               <img src={githubLogo} alt="GitHub" />
