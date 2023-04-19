@@ -1,0 +1,200 @@
+/* Portfolio.css */
+@import 'bulma/css/bulma.min.css';
+.portfolio-container {
+  background-color: #262626; /* dark color for background */
+  color: #ffffff; /* white color for text */
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* added to center the containers horizontally */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 800px;
+}
+
+.project-card2 {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.project-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust the width to your desired size */
+  height: 30px; /* Adjust the height to your desired size */
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 0.5s ease-in forwards;
+}
+
+.fade-out {
+  opacity: 1;
+  animation: fade-out 0.5s ease-in forwards;
+}
+.project-card {
+  position: relative;
+  overflow: hidden;
+  /* Other styles for the card */
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(10px); /* Adjust the blur intensity as desired */
+}
+
+.card-background img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.image-container {
+  overflow: hidden;
+  height: 200px; /* Adjust the height as desired */
+}
+
+.image-container img {
+  display: inline-block;
+  height: 100%;
+  animation: scrollImages 10s linear infinite; /* Adjust the animation duration as desired */
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Add any additional styles as needed */
