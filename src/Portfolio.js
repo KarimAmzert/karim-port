@@ -63,13 +63,13 @@ const Portfolio = () => {
                   Home
                 </a>
                 <a className="navbar-item" href="/">
-                  Home
+                  About
                 </a>
                 <a className="navbar-item" href="/">
-                  Home
+                  Projects
                 </a>
                 <a className="navbar-item" href="/">
-                  Home
+                  other
                 </a>
               </div>
             </div>
