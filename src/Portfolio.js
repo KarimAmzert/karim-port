@@ -65,13 +65,13 @@ const Portfolio = () => {
                 <a className="navbar-item" href="/">
                   Home
                 </a>
-                <a className="navbar-item" href="/">
+                <a className="navbar-item" href="#about">
                   About
                 </a>
-                <a className="navbar-item" href="/">
+                <a className="navbar-item" href="#projects">
                   Projects
                 </a>
-                <a className="navbar-item" href="/">
+                <a className="navbar-item" href="#other">
                   other
                 </a>
               </div>
@@ -203,7 +203,7 @@ const Portfolio = () => {
           </p>
 
           <div className="social-icons">
-            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/KarimAmzert" target="_blank" rel="noopener noreferrer">
               <img src={githubLogo} alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
