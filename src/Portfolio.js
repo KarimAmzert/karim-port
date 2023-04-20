@@ -9,6 +9,7 @@ import dawn from './1500x500.jpg';
 import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
+import Carousel from 'react-bootstrap/Carousel';
 
 let isScrollingDown = false;
 
@@ -39,6 +40,7 @@ window.addEventListener('scroll', checkVisibility);
 
 const Portfolio = () => {
   return (
+    
     <><>
       <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
@@ -94,7 +96,7 @@ const Portfolio = () => {
           <div className="projects-container">
             {/* Render your projects as cards or tiles */}
             <div className="project-card">
-              <img src="project1.png" alt="Project 1" />
+            <img src="/images/656765775.png" alt="First slide" width="100%" height="100%"/>
               <div className="card-background">
                 <img src= {WMlogo} alt="Project 1 Background" />
               </div>
