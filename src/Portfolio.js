@@ -9,7 +9,6 @@ import dawn from './1500x500.jpg';
 import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
-import Carousel from 'react-bootstrap/Carousel';
 
 let isScrollingDown = false;
 
