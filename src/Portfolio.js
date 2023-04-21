@@ -124,30 +124,6 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-            <div className="project-card">
-              <img src="project3.png" alt="Project 3" />
-              <h3>Project 3</h3>
-              <p>
-                3rd project asofuigbaeriougnaweogianrboiaewejgoaiwrn
-              </p>
-              <div className="social-icons">
-                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-                  <img src={githubLogo} alt="GitHub" />
-                </a>
-              </div>
-            </div>
-            <div className="project-card">
-              <img src="project4.png" alt="Project 4" />
-              <h3>Project 4</h3>
-              <p>
-                4th project oinergopjanhoqwrinhffalrkjbgvljbhlibjarlwkjbhavlhjlabwhv
-              </p>
-              <div className="social-icons">
-                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-                  <img src={githubLogo} alt="GitHub" />
-                </a>
-              </div>
-            </div>
           </div>
         </section>
         <section id="other">
