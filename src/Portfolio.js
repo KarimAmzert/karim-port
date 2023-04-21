@@ -186,7 +186,7 @@ const Portfolio = () => {
             <a href="https://www.linkedin.com/in/karim-amzert-30a6b0268/" target="_blank" rel="noopener noreferrer">
               <img src={linkedinLogo} alt="LinkedIn" />
             </a>
-            <a href="KarimAmzert@hotmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:KarimAmzert@hotmail.com" target="_blank" rel="noopener noreferrer">
               <img src={emailLogo} alt="Email" />
             </a>
           </div>
