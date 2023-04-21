@@ -10,6 +10,7 @@ import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
 import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab723386dc3a8.jpg'
+import emailLogo from './emailicon.jpeg'
 
 let isScrollingDown = false;
 
@@ -182,8 +183,11 @@ const Portfolio = () => {
             <a href="https://github.com/KarimAmzert" target="_blank" rel="noopener noreferrer">
               <img src={githubLogo} alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/karim-amzert-30a6b0268/" target="_blank" rel="noopener noreferrer">
               <img src={linkedinLogo} alt="LinkedIn" />
+            </a>
+            <a href="KarimAmzert@hotmail.com" target="_blank" rel="noopener noreferrer">
+              <img src={emailLogo} alt="Email" />
             </a>
           </div>
         </section>
