@@ -90,7 +90,7 @@ const Portfolio = () => {
           <h2>About Me</h2>
           <p>
           I'm a passionate software developer currently studying at 
-          <a href="https://www.cmaisonneuve.qc.ca/" target="_blank" rel="noopener noreferrer">College de Maisonneuve </a>. I'm always eager to learn and grow as a developer, and I'm
+          <a href="https://www.cmaisonneuve.qc.ca/" target="_blank" rel="noopener noreferrer"> Collège de Maisonneuve</a>. I'm always eager to learn and grow as a developer, and I'm
           constantly exploring new technologies to stay up-to-date with the
           latest industry trends.
           </p>
