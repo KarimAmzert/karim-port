@@ -9,10 +9,13 @@ import dawn from './1500x500.jpg';
 import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
-import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab723386dc3a8.jpg'
-import emailLogo from './emailicon.jpeg'
+import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab723386dc3a8.jpg';
+import emailLogo from './emailicon.jpeg';
 
 let isScrollingDown = false;
+function cv (){
+  window.location.href = "https://firebasestorage.googleapis.com/v0/b/woven-backbone-371702.appspot.com/o/CV.pdf?alt=media&token=ddca02c2-f4c2-485f-9d9f-05addce1b0dc";
+}
 
 function checkVisibility() {
   const projectCards = document.querySelectorAll('.project-card');
@@ -194,6 +197,8 @@ const Portfolio = () => {
             </a>
           </div>
         </section>
+        <br></br>
+        <button onClick={cv}>Download my CV</button>
         <footer>
           <p>&copy; Made by Karim Amzert, using reactJS and hosted on netlify</p>
         </footer>
