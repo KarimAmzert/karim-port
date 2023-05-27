@@ -14,7 +14,7 @@ import emailLogo from './emailicon.jpeg';
 
 let isScrollingDown = false;
 function cv (){
-  window.location.href = "https://firebasestorage.googleapis.com/v0/b/woven-backbone-371702.appspot.com/o/CV.pdf?alt=media&token=ddca02c2-f4c2-485f-9d9f-05addce1b0dc";
+  window.location.href = "https://firebasestorage.googleapis.com/v0/b/woven-backbone-371702.appspot.com/o/CVKARIMAMZERT.pdf?alt=media&token=7fbd4e27-0215-417b-bf08-136908646e91";
 }
 
 function checkVisibility() {
