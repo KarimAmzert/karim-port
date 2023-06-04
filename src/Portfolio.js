@@ -113,7 +113,7 @@ const Portfolio = () => {
                 read,publish and review mangas.
               </p>
               <div className="social-icons">
-                <a href="https://github.com/Tagatso/WebManga" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/KarimAmzert/WebMangaKarim" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
                 </a>
               </div>
