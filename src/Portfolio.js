@@ -168,7 +168,7 @@ const Portfolio = () => {
   <a href="https://twitter.com/OXIFGC" target="_blank" rel="noopener noreferrer">
       <img src={twitterLogo} alt="Twitter" />
     </a>
-    <a href="https://gamebanana.com/members/1747854" target="_blank" rel="noopener noreferrer">
+    <a href="https://gamebanana.com/members/submissions/portfolio/1747854" target="_blank" rel="noopener noreferrer">
       <img src={GBlogo} alt="GameBanana" />
     </a>
   </div>
