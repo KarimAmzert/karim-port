@@ -165,7 +165,7 @@ const Portfolio = () => {
     using tools like Blender and Python.
   </p>
   <div className="social-icons">
-  <a href="https://twitter.com/OXIFGC" target="_blank" rel="noopener noreferrer">
+  <a href="https://twitter.com/DawnCreatives" target="_blank" rel="noopener noreferrer">
       <img src={twitterLogo} alt="Twitter" />
     </a>
     <a href="https://gamebanana.com/members/submissions/portfolio/1747854" target="_blank" rel="noopener noreferrer">
