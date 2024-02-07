@@ -43,6 +43,7 @@ function checkVisibility() {
 
 window.addEventListener('load', checkVisibility);
 window.addEventListener('scroll', checkVisibility);
+document.title = 'Karim Amzert';
 
 const Portfolio = () => {
   return (
