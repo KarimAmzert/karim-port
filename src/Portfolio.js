@@ -6,6 +6,7 @@ import githubLogo from './github-logo.png';
 import linkedinLogo from './linkedin-logo.png';
 import twitterLogo from './twitter-icone-5.png';
 import dawn from './1500x500.jpg';
+import Cantinepic from './Cantine.png';
 import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
@@ -132,7 +133,7 @@ const Portfolio = () => {
               </div>
             </div>
           <div className="project-card">
-              <img src={android} alt="Project 3" />
+              <img src={Cantinepic} alt="Project 3" />
               <h3>DND Cafeteria Software</h3>
               <p>
                 A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
