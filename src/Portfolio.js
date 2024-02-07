@@ -131,7 +131,6 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-          </div>
           <div className="project-card">
               <img src={android} alt="Project 3" />
               <h3>DND Cafeteria Software</h3>
