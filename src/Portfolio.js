@@ -136,7 +136,7 @@ const Portfolio = () => {
           <div className="project-card">
               <img src={Cantinepic} alt="Project 3" />
                   <div className="card-background">
-                    <img src= {WMlogo} alt="Project 1 Background" />
+                    <img src= {CrestLogo} alt="Project 1 Background" />
                   </div>
               <h3>DND Cafeteria Software</h3>
               <p>
