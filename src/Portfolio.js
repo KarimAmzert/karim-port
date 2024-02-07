@@ -213,7 +213,7 @@ const Portfolio = () => {
         <br></br>
         <button onClick={cv}>Download my CV</button>
         <footer>
-          <p>&copy; Made by Karim Amzert, using reactJS and hosted on netlify</p>
+          <p>&copy; Made by Karim Amzert.</p>
         </footer>
       </div></>
   );
