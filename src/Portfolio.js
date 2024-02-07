@@ -132,6 +132,20 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <div className="project-card">
+              <img src={android} alt="Project 3" />
+              <h3>DND Cafeteria Software</h3>
+              <p>
+                A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
+                Made for the Department of National Defence. Includes StockTaking and product selling capabilities.
+              </p>
+              <div className="social-icons">
+                <a href="https://github.com/KarimAmzert/Cantine" target="_blank" rel="noopener noreferrer">
+                  <img src={githubLogo} alt="GitHub" />
+                </a>
+              </div>
+            </div>
+          </div>        
         </section>
         <section id="other">
           <h2>Other Projects</h2>
