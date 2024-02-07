@@ -11,6 +11,7 @@ import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
 import image4 from './IMG_5232.jpg';
 import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab723386dc3a8.jpg';
+import CrestLogo from './crest1.png';
 import emailLogo from './emailicon.jpeg';
 
 let isScrollingDown = false;
@@ -134,6 +135,9 @@ const Portfolio = () => {
             </div>
           <div className="project-card">
               <img src={Cantinepic} alt="Project 3" />
+                  <div className="card-background">
+                    <img src= {WMlogo} alt="Project 1 Background" />
+                  </div>
               <h3>DND Cafeteria Software</h3>
               <p>
                 A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
