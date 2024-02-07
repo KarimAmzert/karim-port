@@ -48,6 +48,7 @@ const Portfolio = () => {
   return (
     
     <><>
+    <title>Karim Amzert</title>
       <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
