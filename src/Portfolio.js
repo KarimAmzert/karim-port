@@ -114,7 +114,7 @@ const Portfolio = () => {
               <h3>WebManga</h3>
               <p>
                 A web application built with React.js, Firebase and SwaggerUI that allows users to
-                read,publish and review mangas.
+                read,publish and review mangas. Featured on College Maisonneuve's software development department website.
               </p>
               <div className="social-icons">
                 <a href="https://github.com/KarimAmzert/WebMangaKarim" target="_blank" rel="noopener noreferrer">
