@@ -121,12 +121,10 @@ const Portfolio = () => {
                 <a href="https://github.com/KarimAmzert/WebMangaKarim" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
                 </a>
-              </div>
-              <div className="social-icons">
                 <a href="https://sites.google.com/view/informatiquemaisonneuve/futur-%C3%A9tudiant/exemples-projets" target="_blank" rel="noopener noreferrer">
                   <img src={m9Logo} alt="Maisonneuve" />
-                </a>
-              </div>                  
+                </a>                  
+              </div>                 
             </div>
             <div className="project-card">
               <img src={android} alt="Project 2" />
