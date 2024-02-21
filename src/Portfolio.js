@@ -13,6 +13,7 @@ import image4 from './IMG_5232.jpg';
 import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab723386dc3a8.jpg';
 import CrestLogo from './crest1.png';
 import emailLogo from './emailicon.jpeg';
+import m9Logo from './download.jpg';
 
 let isScrollingDown = false;
 function cv (){
@@ -121,6 +122,11 @@ const Portfolio = () => {
                   <img src={githubLogo} alt="GitHub" />
                 </a>
               </div>
+              <div className="social-icons">
+                <a href="https://sites.google.com/view/informatiquemaisonneuve/futur-%C3%A9tudiant/exemples-projets" target="_blank" rel="noopener noreferrer">
+                  <img src={m9Logo} alt="Maisonneuve" />
+                </a>
+              </div>                  
             </div>
             <div className="project-card">
               <img src={android} alt="Project 2" />
