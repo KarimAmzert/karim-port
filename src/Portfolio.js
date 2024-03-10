@@ -163,11 +163,11 @@ const Portfolio = () => {
                   </div>
               <h3>Task Tracker 3CSU</h3>
               <p>
-                A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
-                Made for the Department of National Defence. Includes StockTaking and product selling capabilities.
+                An ASPNET web application using MSSQL where you manage tasks and keep track of them and their deadlines.
+                Made for the Department of National Defence. Includes calendar view of task list, printing and export to excel capabilities.
               </p>
               <div className="social-icons">
-                <a href="https://github.com/KarimAmzert/Cantine" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/KarimAmzert" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
                 </a>
               </div>
