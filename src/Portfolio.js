@@ -6,6 +6,7 @@ import githubLogo from './github-logo.png';
 import linkedinLogo from './linkedin-logo.png';
 import twitterLogo from './twitter-icone-5.png';
 import dawn from './1500x500.jpg';
+import tasktrackerpic from './tasktracker.png'
 import Cantinepic from './Cantine.PNG';
 import GBlogo from './Smash_Ball.png';
 import WMlogo from './apple-touch-icon@2.png';
@@ -145,6 +146,22 @@ const Portfolio = () => {
                     <img src= {CrestLogo} alt="Project 1 Background" />
                   </div>
               <h3>DND Cafeteria Software</h3>
+              <p>
+                A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
+                Made for the Department of National Defence. Includes StockTaking and product selling capabilities.
+              </p>
+              <div className="social-icons">
+                <a href="https://github.com/KarimAmzert/Cantine" target="_blank" rel="noopener noreferrer">
+                  <img src={githubLogo} alt="GitHub" />
+                </a>
+              </div>
+            </div>
+             <div className="project-card">
+              <img src={tasktrackerpic} alt="Project 3" />
+                  <div className="card-background">
+                    <img src= {CrestLogo} alt="Project 1 Background" />
+                  </div>
+              <h3>Task Tracker 3CSU</h3>
               <p>
                 A Visual Basic Based desktop application using both MSSQL and Microsoft Access where you can Keep track of cafeteria inventory.
                 Made for the Department of National Defence. Includes StockTaking and product selling capabilities.
