@@ -107,7 +107,6 @@ const Portfolio = () => {
         <section id="projects">
           <h2>Projects</h2>
           <div className="projects-container">
-            {/* Render your projects as cards or tiles */}
             <div className="project-card">
             <img src="/images/656765775.png" alt="First slide" width="100%" height="100%"/>
               <div className="card-background">
