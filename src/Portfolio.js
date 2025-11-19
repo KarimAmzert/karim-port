@@ -170,6 +170,26 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+                  
+            <div className="project-card">
+            <img src="/images/656765775.png" alt="First slide" width="100%" height="100%"/>
+              <div className="card-background">
+                <img src= {WMlogo} alt="Project Melee Background" />
+              </div>
+              <h3>Melee Trophy Gallery</h3>
+              <p>
+                A web application built with vanilla HTML, ThreeJS to load .OBJ models and .MTL material files and CSS that attempts to recreate the trophy gallery from Super Smash Bros. Melee.
+              </p>
+              <div className="social-icons">
+                <a href="https://meleetrophygallery.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <img src={m9Logo} alt="Maisonneuve" />
+                </a>                       
+                <a href="https://github.com/KarimAmzert/WebApplication1" target="_blank" rel="noopener noreferrer">
+                  <img src={githubLogo} alt="GitHub" />
+                </a>             
+              </div>                 
+            </div>
+                  
           </div>        
         </section>
         <section id="other">
