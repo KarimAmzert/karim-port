@@ -15,6 +15,7 @@ import android from './1f1bef97d0ff9f392a1533439cae584d84ddc4e1aa0802554a3ab7233
 import CrestLogo from './crest1.png';
 import emailLogo from './emailicon.jpeg';
 import m9Logo from './download.jpg';
+import MeleeGallery from './TrophyGallery.png';
 
 let isScrollingDown = false;
 function cv (){
@@ -174,7 +175,7 @@ const Portfolio = () => {
             <div className="project-card">
             <img src="/images/656765775.png" alt="First slide" width="100%" height="100%"/>
               <div className="card-background">
-                <img src= {WMlogo} alt="Project Melee Background" />
+                <img src= {MeleeGallery} alt="Project Melee Background" />
               </div>
               <h3>Melee Trophy Gallery</h3>
               <p>
