@@ -16,6 +16,7 @@ import CrestLogo from './crest1.png';
 import emailLogo from './emailicon.jpeg';
 import m9Logo from './download.jpg';
 import MeleeGallery from './TrophyGallery.png';
+import SmashBall from './Smash_Ball.png';
 
 let isScrollingDown = false;
 function cv (){
@@ -183,7 +184,7 @@ const Portfolio = () => {
               </p>
               <div className="social-icons">
                 <a href="https://meleetrophygallery.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="./Smash_Ball.png" alt="Melee Trophy Gallery" />
+                  <img src={SmashBall} alt="Melee Trophy Gallery" />
                 </a>                       
                 <a href="https://github.com/KarimAmzert/WebApplication1" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
