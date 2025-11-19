@@ -183,7 +183,7 @@ const Portfolio = () => {
               </p>
               <div className="social-icons">
                 <a href="https://meleetrophygallery.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src="/Smash_Ball.png" alt="Melee Trophy Gallery" />
+                  <img src="./Smash_Ball.png" alt="Melee Trophy Gallery" />
                 </a>                       
                 <a href="https://github.com/KarimAmzert/WebApplication1" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
