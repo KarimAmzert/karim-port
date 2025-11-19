@@ -173,7 +173,7 @@ const Portfolio = () => {
             </div>
                   
             <div className="project-card">
-            <img src="/images/656765775.png" alt="First slide" width="100%" height="100%"/>
+            <img src="/images/TrophyGallery.png" alt="First slide" width="100%" height="100%"/>
               <div className="card-background">
                 <img src= {MeleeGallery} alt="Project Melee Background" />
               </div>
@@ -183,7 +183,7 @@ const Portfolio = () => {
               </p>
               <div className="social-icons">
                 <a href="https://meleetrophygallery.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <img src={m9Logo} alt="Maisonneuve" />
+                  <img src="/Smashball.png" alt="Melee Trophy Gallery" />
                 </a>                       
                 <a href="https://github.com/KarimAmzert/WebApplication1" target="_blank" rel="noopener noreferrer">
                   <img src={githubLogo} alt="GitHub" />
